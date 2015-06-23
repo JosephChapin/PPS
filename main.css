@@ -1,0 +1,9 @@
+body { padding-top: 70px; }
+
+#bgimg{
+	height:1px;
+    background-color:#FFFFFF;
+    overflow: hidden;
+    height:100%;
+}
+
