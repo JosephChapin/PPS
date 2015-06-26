@@ -7,6 +7,12 @@ body { padding-top: 70px; }
     height:100%;
 }
 
+.fullcourt {
+	position: relative;
+	margin-right: auto;
+	margin-left: 100px;
+}
+
 p {
 	position: relative;
 	margin-right: 10px;
