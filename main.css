@@ -6,8 +6,43 @@ body { padding-top: 70px; }
 	max-height: 70px;
 }
 
+.navbar h1 {
+	position: absolute;
+	bottom: 5px;
+	left: 100px;
+}
+
+.container #logo img {
+	max-width: 70px;
+	max-height: 80px;
+	height: auto;
+	width: auto;
+	position: relative;
+	left: -40px;
+	top: 2px;
+	color: white;
+}
+
+
+.container a:link, a:visited {
+	color: white;
+	cursor: auto;
+	position: relative;
+	left: 360%;
+	bottom: 35px;
+	font-size: 17px;
+}
+
+.container a:hover {
+	color: #CCCCCC;
+}
+
+.container a:active {
+	color: #CCCCCC;
+}
+
 body {
-	background: #F5F5F0;
+	background: #F5F0EB;
 }
 
 #bgimg {
@@ -16,13 +51,6 @@ body {
     overflow: hidden;
     height:100%;
     max-height: 400px;
-}
-
-.fullcourt img {
-	max-width: 50%;
-	position: relative;
-	margin-left: 20%;
-	border-radius: 20px;
 }
 
 .halfcourt img {
@@ -34,25 +62,24 @@ body {
 	border-radius: 20px;
 }
 
+.fullcourt img {
+	max-width: 50%;
+	position: relative;
+	margin-left: 25%;
+	border-radius: 20px;
+}
+
 p {
 	position: relative;
 	margin-right: 10px;
 	margin-left: 10px;
 	color: black;
+	font-size: 15px;
 }
 
 h1 {
 	position: relative;
 	left: -60px;
-}
-
-.container a {
-	color: white;
-	position: relative;
-	left: 790px;
-	bottom: 40px;
-	margin-right: 20px;
-	font-size: 17px;
 }
 
 h2 {
@@ -70,3 +97,36 @@ h4 {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+footer {
+	background: black;
+	color: white;
+	height: 100px;
+}
+
+footer a {
+	position: absolute;
+	left: 45%;
+	font-size: 20px;
+	bottom: 10px;
+}
+
+footer #logo img {
+	max-width: 110px;
+	max-height: 130px;
+	position: relative;
+	left: 30px;
+	top: 2px;
+}
+
+#footerinfo {
+	position: absolute;
+	left: 200px;
+	bottom: 100px;
+}
+
+
+
+
+
+
