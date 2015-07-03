@@ -3,13 +3,20 @@ body { padding-top: 70px; }
 .navbar {
 	background: #004700;
 	color: white;
-	max-height: 70px;
+	height: 70px;
 }
 
-.navbar h1 {
+.container #logo {
+	width: 500px;
 	position: absolute;
-	bottom: 5px;
-	left: 100px;
+	left: 30px;
+	top: 5%;
+	margin-right: 5px;
+}
+.container #logo h1 {
+	position: absolute;
+	left: 18%;
+	bottom: 0;
 }
 
 .container #logo img {
@@ -17,19 +24,17 @@ body { padding-top: 70px; }
 	max-height: 80px;
 	height: auto;
 	width: auto;
-	position: relative;
-	left: -40px;
-	top: 2px;
-	color: white;
 }
 
+.links {
+	position: absolute;
+	right: 3%;
+	bottom: 30%;
+}
 
 .container a:link, a:visited {
 	color: white;
 	cursor: auto;
-	position: relative;
-	left: 360%;
-	bottom: 35px;
 	font-size: 17px;
 }
 
@@ -105,12 +110,6 @@ footer {
 	width: 100%;
 }
 
-footer a {
-	position: absolute;
-	left: 45%;
-	font-size: 20px;
-	bottom: 10px;
-}
 
 footer #logo img {
 	max-width: 110px;
@@ -120,10 +119,24 @@ footer #logo img {
 	top: 2px;
 }
 
-#footerinfo {
-	position: absolute;
-	left: 200px;
-	bottom: 100px;
+footer #footerinfo {
+	margin: 0;
+	width: 500px;
+	text-align: center;
+	position: relative;
+	bottom: 65%;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	vertical-align: middle;
+}
+
+footer hr {
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
 
