@@ -79,22 +79,6 @@ body {
     left: 1.16%;
 }
 
-.halfcourt img {
-	float: right;
-	max-width: 200px;
-	max-height: 500px;
-	margin-right: 5%;
-	margin-left: 10px;
-	border-radius: 20px;
-}
-
-.fullcourt img {
-	max-width: 50%;
-	position: relative;
-	margin-left: 25%;
-	border-radius: 20px;
-}
-
 p {
 	position: relative;
 	margin-right: 10px;
@@ -170,15 +154,47 @@ footer hr {
 }
 
 /* Home Page */
-#homeimg {
-    background-color: #FFFFFF;
+.itemactive {
+    background: #FFFFFF;
     overflow: hidden;
-    max-height: 600px;
+    max-height: 568px;
     width: 100%;
     position: relative;
-    left: 1.16%;
 }
 
+/* Rules Page */
+.halffull {
+	border: solid;
+	border-width: 1px;
+	display: table-column;
+	background: white;
+}
+
+.8-16players {
+	width: 500px;
+	float: left;
+}
+
+.halfcourt img {
+	max-width: 200px;
+	max-height: 500px;
+	margin-right: 5%;
+	margin-left: 10px;
+	border-radius: 20px;
+	float: right;
+}
+
+.fullcourt img {
+	max-width: 50%;
+	position: relative;
+	margin-left: 25%;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+
+.bottom {
+	text-align: center;
+}
 
 
 
